@@ -1,0 +1,208 @@
+[0.008s] Invoking command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros
+[0.046s] -- The C compiler identification is GNU 11.3.0
+[0.085s] -- The CXX compiler identification is GNU 11.3.0
+[0.090s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.203s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.395s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.433s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.477s] -- Looking for pthread.h
+[0.523s] -- Looking for pthread.h - found
+[0.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.572s] -- Found Threads: TRUE  
+[0.577s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.580s] -- Found required Ceres dependency: glog
+[0.581s] -- Found required Ceres dependency: gflags
+[0.581s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.587s] -- Found cartographer_ros_msgs: 2.0.9000 (/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.782s] -- Checking for module 'eigen3'
+[0.790s] --   Found eigen3, version 3.4.0
+[0.805s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.805s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.821s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.822s] -- looking for PCL_COMMON
+[0.823s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.823s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.825s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.905s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.973s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.976s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.070s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.105s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.493s] -- Found rosbag2_cpp: 0.15.4 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.540s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[1.548s] -- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.879s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.890s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.796s] -- Configuring done
+[2.915s] -- Generating done
+[2.917s] -- Build files have been written to: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros
+[2.927s] Invoked command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros
+[2.928s] Invoking command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros -- -j8 -l8
+[2.961s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[2.963s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[2.963s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[2.963s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[2.963s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[2.971s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[2.977s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[2.978s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[3.517s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[7.652s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[7.905s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[12.270s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[12.822s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[13.228s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[15.774s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[17.490s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[18.049s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[42.997s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[42.997s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[42.997s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[43.970s] [ 60%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[44.811s] [ 60%] Built target cartographer_ros
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[44.831s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[44.833s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[53.164s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[53.279s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[53.820s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[54.734s] [ 88%] [32m[1mLinking CXX executable cartographer_node[0m
+[54.745s] [ 91%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[55.614s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[56.275s] [ 94%] Built target cartographer_assets_writer
+[56.644s] [ 94%] Built target cartographer_pbstream_map_publisher
+[57.344s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[57.734s] [ 97%] Built target cartographer_rosbag_validate
+[57.811s] [ 97%] Built target cartographer_offline_node
+[58.883s] [ 97%] Built target cartographer_node
+[59.173s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[59.921s] [100%] Built target cartographer_occupancy_grid_node
+[59.928s] Invoked command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros -- -j8 -l8
+[59.972s] Invoking command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros
+[59.976s] -- Install configuration: ""
+[59.977s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[60.026s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[60.040s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[60.040s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[60.044s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[60.044s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[60.058s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[60.058s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[60.060s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[60.060s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[60.062s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[60.062s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[60.064s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[60.064s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[60.065s] -- Set runtime path of "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include/
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[60.065s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[60.066s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[60.067s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//urdf
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[60.068s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[60.069s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[60.070s] -- Installing: /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[60.073s] Invoked command in '/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/carl/Desktop/d2lros2/chapt2/fishbot_ws/build/cartographer_ros

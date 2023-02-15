@@ -1,0 +1,20 @@
+[0.558s] Invoking command in '/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/fishbot_description': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/prefix_override:/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/build install --record /home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/install.log --single-version-externally-managed
+[0.771s] running egg_info
+[0.771s] writing ../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.772s] writing dependency_links to ../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.772s] writing entry points to ../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.772s] writing requirements to ../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.772s] writing top-level names to ../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.773s] reading manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.774s] writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.774s] running build
+[0.774s] running build_py
+[0.774s] running install
+[0.774s] running install_lib
+[0.775s] running install_data
+[0.776s] running install_egg_info
+[0.777s] removing '/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.777s] Copying ../build/fishbot_description/fishbot_description.egg-info to /home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.777s] running install_scripts
+[0.792s] writing list of installed files to '/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/install.log'
+[0.818s] Invoked command in '/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/fishbot_description' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/prefix_override:/home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/build install --record /home/carl/Desktop/d2lros2/chapt2/chapt8_ws/src/build/fishbot_description/install.log --single-version-externally-managed

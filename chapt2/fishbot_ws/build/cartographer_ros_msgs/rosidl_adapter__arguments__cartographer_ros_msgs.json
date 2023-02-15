@@ -1,0 +1,25 @@
+{
+  "package_name": "cartographer_ros_msgs",
+  "non_idl_tuples": [
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/BagfileProgress.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/HistogramBucket.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkEntry.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkList.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/MetricFamily.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/MetricLabel.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/Metric.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/StatusCode.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/StatusResponse.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapEntry.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapList.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapTexture.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:msg/TrajectoryStates.msg",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/FinishTrajectory.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/GetTrajectoryStates.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/ReadMetrics.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/StartTrajectory.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/TrajectoryQuery.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/SubmapQuery.srv",
+    "/home/carl/Desktop/d2lros2/chapt2/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs:srv/WriteState.srv"
+  ]
+}

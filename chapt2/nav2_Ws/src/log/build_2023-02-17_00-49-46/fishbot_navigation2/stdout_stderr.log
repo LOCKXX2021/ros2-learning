@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found nav2_bringup: 1.1.5 (/opt/ros/humble/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/build/fishbot_navigation2
+-- Install configuration: ""
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/gazebo.launch.py
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/param
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/my_map.pgm
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot.rviz
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/my_map.yaml
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.png
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+-- Installing: /media/carl/ros/d2lros2/chapt2/nav2_Ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
